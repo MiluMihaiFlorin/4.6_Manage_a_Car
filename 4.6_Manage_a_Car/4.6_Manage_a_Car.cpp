@@ -1,7 +1,8 @@
 
 #include <iostream>
 using namespace std;
-//set Car license number by constructor, setter or by direct read
+//1. set Car license number by constructor, setter or by direct read
+//2. start Car
 class Car
 {
 private:
@@ -24,6 +25,10 @@ public:
         cout << "Give a licence number:";
         cin >> this->licence;
     }
+    void startCar()
+    {
+        cout << "Car started with licence " << this->licence << endl;
+    }
 };
 int main()
 {
@@ -32,8 +37,11 @@ int main()
     cout << car1->getLicence()<<endl;
     car1->setLicence("DJ53DCS");
     cout << car1->getLicence()<<endl;
-    car1->directReadLicence();
+    //car1->directReadLicence();
     cout << car1->getLicence() << endl;
+
+    //start car
+    car1->startCar();
     
     
 }
