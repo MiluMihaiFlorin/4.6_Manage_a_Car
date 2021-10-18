@@ -85,7 +85,7 @@ int main()
     car1->setPerson(person1);
 
     cout << car1->getPerson()->getName();
-    //
+    //joined with emil
     
 }
 
