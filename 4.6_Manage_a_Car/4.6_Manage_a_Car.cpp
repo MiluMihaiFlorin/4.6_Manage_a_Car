@@ -4,7 +4,7 @@ using namespace std;
 //1. set Car license number by constructor, setter or by direct read
 //2. start Car
 //3. add Person (name, address etc) to Car. Person to be added should have a name given by
-//4. set Car’s driver (Person)
+//4. set Carï¿½s driver (Person)
 
 //constructor, setter or by direct read
 class Person 
@@ -85,7 +85,7 @@ int main()
     car1->setPerson(person1);
 
     cout << car1->getPerson()->getName();
-    
+    //
     
 }
 
